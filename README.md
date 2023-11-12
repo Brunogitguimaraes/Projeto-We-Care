@@ -12,5 +12,5 @@
 </b>
 </ul>
 <div>
-  
+  <img src="https://github.com/Brunogitguimaraes/Projeto-We-Care/blob/main/We%20Care%20Desketop.png?raw=true"/>
 </div>
