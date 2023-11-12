@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    margin: 44px 0 144px 76px;
+}
+.link-header{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color:#989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header{
+    height: 41px;
+    width: 130px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    background:#665ae1;
+    border-radius: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+}
+p{
+    width: 515px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-div{
+    width: 269px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px 0px #00000040);
+    color: #000000;
+}
+
+
+div{
+    display: inline-block;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    margin-right: 90px;
+}
+
+@media screen and (max-width: 1325px) {
+    div{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+    .logo-image{
+        margin: 149px 22px 24px 14px;
+        width: 354px;
+        height: 317px;
+    }
+    header{
+        display: none;
+    }
+    h1{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.95px;
+        width: 263px;
+        height: 52px;
+        left: 64px;
+        right: 63px;
+        display: inline-block;
+        margin-bottom: 7px;
+    }
+    p{
+        display: none;
+    }
+    h2{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        margin-bottom: 17px;
+    }
+    .button-div{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34.13px;
+        cursor: pointer;
+        margin-bottom: 133px;
+    }
+
+    @media screen and (max-width: 330px) {
+        .container-left{
+            height: 70%;
+        }
+    }
+}
