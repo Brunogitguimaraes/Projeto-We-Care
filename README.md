@@ -11,7 +11,7 @@
   <li> CSS </li>
 </b>
 </ul>
-<div>
+<div align="center">
   <img src="https://github.com/Brunogitguimaraes/Projeto-We-Care/blob/main/We%20Care%20Desketop.png?raw=true"/>
   <img src="https://github.com/Brunogitguimaraes/Projeto-We-Care/blob/main/We%20Care%20Mobile.png?raw=true"/>
 </div>
